@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+background-color: rgb(13, 13, 48);
+background-image: url('images/background.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 225px;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar a:hover{
+    border-bottom: 2px #fff solid;
+
+}
+
+.navbar a{
+    padding:10px
+}
+
+.title{
+color: #fff;
+text-align: center;
+}
+
+
+.team{
+text-align: center;
+color: #fff;
+padding-bottom: 20px;
+}
+
+
+
+.button{
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+.button a:hover{
+    border-bottom: white solid;
+    
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    background-color: #fff;
+    width: 220px;
+    height: 500px;
+    margin: 10px;    
+}
+
+.card-image{
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.tim-cook{
+height: 180px;
+margin-bottom: 15px;
+background-image: url('images/Tim\ cook.jpg');
+background-size: cover;
+}
+
+.bill-gate{
+    height: 180px;
+    margin-bottom: 15px;
+    background-image: url('images/billgates.jpg');
+    background-size: cover;
+}
+
+.jeff-bezos{
+    height: 180px;
+    margin-bottom: 15px;
+    background-image: url('images/jeff\ bezos.jpeg');
+    background-size: cover;
+    }
+
+    .rowone{
+        display: flex;
+        justify-content: center;
+    }
+  
+    
+
+    .cardone{
+        background-color: #fff;
+        width: 220px;
+        height: 500px;
+        margin: 100px;  
+        text-align: center;  
+    }
+    
+    
+    .elon-musk{
+        height: 230px;
+        margin-bottom: 15px;
+        background-image: url('images/Elon\ Musk.jpg');
+        background-size: cover;
+}
